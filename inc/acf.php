@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 if( function_exists('acf_add_options_page') ) {
 	
@@ -9,27 +9,31 @@ if( function_exists('acf_add_options_page') ) {
 		'capability'	=> 'edit_posts',
 		'redirect'		=> false
 	));
-
-    acf_add_options_sub_page(array(
-		'page_title' 	=> 'Profile Section',
-		'menu_title'	=> 'Profile Section',
+	
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Banner Section',
+		'menu_title'	=> 'Banner Section',
 		'parent_slug'	=> 'theme-general-settings',
 	));
 	
 	acf_add_options_sub_page(array(
-		'page_title' 	=> 'Welcome Section',
-		'menu_title'	=> 'Welcome Section',
-		'parent_slug'	=> 'theme-general-settings',
-	));
-	
-	acf_add_options_sub_page(array(
-		'page_title' 	=> 'About  Section',
-		'menu_title'	=> 'About  Section',
+		'page_title' 	=> 'Service Section',
+		'menu_title'	=> 'Service Section',
 		'parent_slug'	=> 'theme-general-settings',
 	));
 	acf_add_options_sub_page(array(
-		'page_title' 	=> 'Gallery Section',
-		'menu_title'	=> 'Gallery Section',
+		'page_title' 	=> 'About Section',
+		'menu_title'	=> 'About Section',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Choose Section',
+		'menu_title'	=> 'Choose Section',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Testimonial Section',
+		'menu_title'	=> 'Testimonial Section',
 		'parent_slug'	=> 'theme-general-settings',
 	));
 	acf_add_options_sub_page(array(
@@ -38,12 +42,9 @@ if( function_exists('acf_add_options_page') ) {
 		'parent_slug'	=> 'theme-general-settings',
 	));
 	acf_add_options_sub_page(array(
-		'page_title' 	=> 'Footer & Social Section',
-		'menu_title'	=> 'Footer & Social Section',
+		'page_title' 	=> 'Footer Section',
+		'menu_title'	=> 'Footer Section',
 		'parent_slug'	=> 'theme-general-settings',
 	));
 	
 }
-
-
-
